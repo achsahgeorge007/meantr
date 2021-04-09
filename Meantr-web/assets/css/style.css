@@ -1822,24 +1822,51 @@ section {
   padding-left: 20%;
   padding-top: 10%;
 }
+@media only screen and (max-width: 600px) {
+  .img-fluid-c {
+    padding-left: 30%;
+  padding-top: 7%;
+  }
+}
 .img-fluid-d {
   margin-bottom: 10px;
   padding-top: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .img-fluid-d {
+    padding-top: 8%;
+    padding-left: 15%;   
+  }
 }
 .img-fluid-e {
   margin-bottom: 10px;
   padding-top: 10%;
   width: 230px;
 }
+@media only screen and (max-width: 600px) {
+  .img-fluid-e {
+    padding-left: 8%;
+  }
+}
+
 .img-fluid {
   margin-bottom: 10px;
   padding-top: 25%;
 }
-
 @media only screen and (max-width: 600px) {
   .img-fluid {
     margin-bottom: 10px;
-    padding-top: 14%;
+    padding-top: 10%;
+  }
+}
+.img-fluid-f {
+  margin-bottom: 10px;
+  padding-top: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .img-fluid-f {
+    padding-top: 6%;
+    padding-left: 14%;
   }
 }
 
